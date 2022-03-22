@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* height: 100%; */
+    width: 100%;
+    /* overflow: hidden; */
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 99%;
+}
+header{
+    width: 99%;
+    background: linear-gradient(to right, red,blue);
+}
+header h1{
+    font-size: 5rem;
+    text-align: center;
+    -webkit-text-stroke: 2.5px rgb(0, 0, 0);
+    color: transparent; 
+    color: yellow;
+}
+header a{
+    text-decoration: none;
+    color: yellow;
+}
+
+li{
+    padding: 0;
+}
+section{
+    width: 80rem;
+    display: flex;
+}
+#principal{
+    background-color: rgba(179, 172, 149, 0.178);
+    background-image: url("./Pokeball1.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-blend-mode:color-burn;
+    background-size: 12rem;
+    width: 99%;
+
+}
+#principal li{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    /* background-color: rgb(255, 255, 255); */
+}
+#pokeName{
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+#p1{
+    margin-top: 1rem;
+    width: 25%;
+    text-align: center;
+}
+#p1 label{
+    font-size: 1.5rem;
+}
+#p1 input{
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+#p1 #pokeImg{
+    height: 10rem;
+}
+#namegrl{
+    display: flex;
+    margin-top: 1rem;
+    width: 25%;
+    background-color: rgba(128, 128, 128, 0.164);
+    border: 3px solid black;
+    border-radius: 10px;
+
+}
+#namegrl h1{
+    text-align: center;
+    margin-top: 1rem;
+}
+#name{
+    margin-top: 0rem;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.164);
+    
+
+}
+#name2{
+    margin-top: 0rem;
+    padding: 0;
+    width: 100%;
+}
+#name h1{
+    text-align: center;
+    /* font-size: 100%; */
+}
+#estadisticas{
+    display: flex;
+    margin-top: 1rem;
+    width: 25%;
+    background-color: rgba(128, 128, 128, 0.164);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#estadisticas h1{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#estadisticas li{
+    margin-top: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.424);
+    border: 3px solid black;
+}
+#movimientos{
+    display: flex;
+    margin-top: 1rem;
+    width: 25%;
+    background-color: rgba(128, 128, 128, 0.164);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#namegrl .btjs{
+    width: 100%;
+    height:100%;
+} 
+.btjs img{
+    padding: 0;
+    margin: 0;
+    justify-content: top;
+    height: 80%;
+    width: 110%;
+}
+#botones{
+    background-color: rgba(179, 172, 149, 0.178);
+    justify-content: center;
+    padding-top: 1rem;
+    width: 99%;
+    height: 100%;
+}
+
+#botones button{
+    width: 20rem;
+    height: 2rem;
+}
+
+#pk3, #pk4, #pk5, #pk6{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#estadisticas .btjs{
+    height: 100%;
+    width: 100%;
+} 
+#movimientos .btjs{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+} 
+
+#movimientos ul li{
+    width: max-content;
+    
+    margin-top: 1rem;
+    background-color: rgba(255, 255, 255, 0.424);
+    border: 3px solid black;
+}
+#movimientos ul h1{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    text-align: center;
+}
+#namegrl ul h1{
+    margin-left: 5rem;
+    text-align: center;
+}
+#namegrl ul li{
+    text-decoration: none;
+    justify-content: space-between;
+    width: max-content;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    background-color: rgba(255, 255, 255, 0.424);
+    border: 3px solid black;
+}
